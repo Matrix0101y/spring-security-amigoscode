@@ -1,5 +1,9 @@
 package com.example.springsecurityapi.security;
 
+import lombok.Data;
+import lombok.RequiredArgsConstructor;
+
+
 public enum ApplicationUserPermission {
     STUDENT_READ("student:read"),
     STUDENT_WRITE("student:write"),
